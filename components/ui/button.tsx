@@ -19,7 +19,9 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        primary: "bg-[#3B82F6] text-primary-foreground font-Nunito"
+        primary: "bg-[#3B82F6] text-primary-foreground font-Nunito",
+        signup: "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80 w-full",
+        signin: "border border-[#CFCFCF] w-full"
       },
       size: {
         default: "h-9 px-4 py-2",
