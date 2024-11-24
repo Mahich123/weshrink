@@ -1,3 +1,5 @@
+"use client"
+
 import { Features } from "@/components/Features"
 import { Header } from "@/components/Header"
 import { Button } from "@/components/ui/button"
