@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export const Features = () => {
+ const Features = () => {
     return (
         <div className="max-w-7xl mx-auto px-4 py-80  relative text-white grid grid-cols-1 lg:gird-cols-8 xl:grid-cols-8 lg:gap-x-8 xl:gap-x-8  2xl:grid-cols-8  2xl:gap-x-8 2xl:gap-y-12 gap-y-9">
             <div className="h-56 w-86 md:h-72 2xl:p-4 2xl:py-px  2xl:h-96 xl:h-[52vh] lg:col-span-4 xl:col-span-4 2xl:col-span-4 border border-[#D9D9D9] rounded-3xl ">
@@ -8,12 +8,14 @@ export const Features = () => {
                     Features that you get
                 </h2>
                 <div className="my-1 xl:py-4 md:py-8 2xl:py-6 px-4">
-                    <Image src="./Arrow.svg"
+                    <Image
+                        src="/Arrow.svg"
                         className="w-72 xl:w-[30rem] 2xl:w-[26rem]"
                         alt="arrow"
-                        width={0}
-                        height={0}
+                        width={100}
+                        height={100}
                     />
+
                 </div>
                 <p className="px-4 text-xs xl:text-base 2xl:text-base md:text-base md:py-10 xl:py-16 2xl:py-20 py-11">Short it, secure it, and let the magic happen!</p>
             </div>
@@ -23,8 +25,8 @@ export const Features = () => {
                     <Image src="./Analytics.svg"
                         className="w-[2.7rem]"
                         alt="arrow"
-                        width={0}
-                        height={0}
+                        width={100}
+                        height={100}
                     />
                     <p className="w-48 2xl:w-60 text-center text-lg 2xl:text-2xl xl:mt-4 2xl:mt-4">Unlock insights for every shortened link.</p>
                 </div>
@@ -36,8 +38,8 @@ export const Features = () => {
                     <Image src="./Pencil.svg"
                         className="w-[2.7rem]"
                         alt="arrow"
-                        width={0}
-                        height={0}
+                        width={100}
+                        height={100}
                     />
                     <p className="w-48  2xl:w-60 text-center text-lg 2xl:text-2xl xl:mt-4 2xl:mt-4">Add your own custom twist to every link!</p>
                 </div>
@@ -49,8 +51,8 @@ export const Features = () => {
                     <Image src="./Clock.svg"
                         className="w-[3.25rem]"
                         alt="arrow"
-                        width={0}
-                        height={0}
+                        width={100}
+                        height={100}
                     />
                     <p className="w-48 2xl:w-60 text-center text-lg 2xl:text-2xl xl:mt-4 2xl:mt-4">Control how long your links stay active.</p>
                 </div>
@@ -68,16 +70,16 @@ export const Features = () => {
                     <Image src="./solarcloud.svg"
                         className="w-8 md:w-[3rem] lg:w-8 2xl:w-16"
                         alt="cloud"
-                        width={0}
-                        height={0}
+                        width={100}
+                        height={100}
                     />
                 </div>
                 <div className="absolute top-2 right-20">
                     <Image src="./Cloud2.svg"
                         className="w-8 md:w-[3rem] lg:w-8 2xl:w-16"
                         alt="cloud"
-                        width={0}
-                        height={0}
+                        width={100}
+                        height={100}
                     />
                 </div>
 
@@ -85,39 +87,40 @@ export const Features = () => {
                     <Image src="./house.svg"
                         alt="house"
                         className="w-[3rem] md:w-[4rem] lg:w-[3rem] 2xl:w-[5rem]"
-                        width={0}
-                        height={0}
+                        width={100}
+                        height={100}
                     />
                 </div>
                 <div className="absolute bottom-7 left-16 md:left-20 lg:left-16 2xl:left-24 2xl:bottom-9">
                     <Image src="./bubble.svg"
                         className="w-5 md:w-7 lg:w-6 2xl:w-8"
                         alt="bubble"
-                        width={0}
-                        height={0}
+                        width={100}
+                        height={100}
                     />
                 </div>
                 <div className="absolute bottom-8 left-24 md:left-32 lg:left-24 2xl:left-36 2xl:bottom-12">
                     <Image src="./open_package.svg"
                         className="w-6"
                         alt="package"
-                        width={0}
-                        height={0}
+                        width={100}
+                        height={100}
                     />
                 </div>
                 <div className="absolute bottom-7 left-32 md:left-40 lg:left-32 2xl:left-44 2xl:bottom-11">
                     <Image src="./goingtruck.svg"
                         className="w-7 md:w-8 2xl:w-9"
                         alt="truck"
-                        width={0}
-                        height={0}
+                        width={100}
+                        height={100}
                     />
                     <div className="relative bottom-1">
                         <Image src="./road.svg"
                             className="w-24 md:w-48 lg:w-32 2xl:w-52"
                             alt="road"
-                            width={0}
-                            height={0}
+
+                            width={100}
+                            height={100}
                         />
                     </div>
                 </div>
@@ -125,32 +128,32 @@ export const Features = () => {
                     <Image src="./office.svg"
                         className="w-8 md:w-10 lg:w-9 2xl:w-12"
                         alt="office"
-                        width={0}
-                        height={0}
+                        width={100}
+                        height={100}
                     />
                 </div>
                 <div className="absolute bottom-1 right-12 md:right-16 2xl:right-20">
                     <Image src="./parcel.svg"
                         className="w-5 2xl:w-6"
                         alt="parcel"
-                        width={0}
-                        height={0}
+                        width={100}
+                        height={100}
                     />
                 </div>
                 <div className="absolute bottom-2 right-24 2xl:right-32">
                     <Image src="./goingtruck.svg"
                         className="scale-x-[-1] w-6 md:w-8 2xl:w-9"
                         alt="truck"
-                        width={0}
-                        height={0}
+                        width={100}
+                        height={100}
                     />
                 </div>
                 <div className="absolute bottom-2 right-19 md:right-28 2xl:right-18">
                     <Image src="./road.svg"
                         className="w-24 md:w-48 lg:w-32 2xl:w-52"
                         alt="road"
-                        width={0}
-                        height={0}
+                        width={100}
+                        height={100}
                     />
                 </div>
 
@@ -158,8 +161,8 @@ export const Features = () => {
                     <Image src="./arrived.svg"
                         className="w-3 2xl:w-4"
                         alt="arrived"
-                        width={0}
-                        height={0}
+                        width={100}
+                        height={100}
                     />
                 </div>
             </div>
@@ -167,3 +170,6 @@ export const Features = () => {
         </div>
     )
 }
+
+
+export default Features;
