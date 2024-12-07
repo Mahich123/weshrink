@@ -1,6 +1,6 @@
 import { Hono } from "hono";
 import { zValidator } from "@hono/zod-validator";
-import { signinSchema } from "@/app/features/auth/schemas";
+import { signinSchema } from "@/features/auth/schemas";
 import { cors } from "hono/cors";
 import { initAuthConfig, authHandler, verifyAuth } from "@hono/auth-js";
 import { getAuthConfig } from "@/auth.config";

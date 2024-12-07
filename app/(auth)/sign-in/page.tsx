@@ -18,7 +18,7 @@ import { z } from 'zod'
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import { signinSchema } from "@/app/features/auth/schemas"
+import { signinSchema } from "@/features/auth/schemas"
 
 const SignInPage = () => {
 
