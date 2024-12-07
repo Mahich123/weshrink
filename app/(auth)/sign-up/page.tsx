@@ -122,9 +122,9 @@ const SignInPage = () => {
                         <div className="flex flex-row  gap-x-2">
                             <Button variant="signup" type="submit">Sign up</Button>
                             <Link href="/sign-in" className="w-full">
-                            <Button variant="signin">
-                                Sign in
-                            </Button>
+                                <Button variant="signin">
+                                    Sign in
+                                </Button>
                             </Link>
                         </div>
 
@@ -133,9 +133,16 @@ const SignInPage = () => {
                             <span className="absolute px-3 font-Nunito text-white -translate-x-1/2 bg-[#191933]  left-1/2 dark:text-white dark:bg-gray-900">Or continue with</span>
                         </div>
 
-                        <div className="grid items-center justify-center  gap-x-2 gap-y-4 grid-cols-4">
-                            <Button className="col-span-2" variant="signin" type="submit">Github</Button>
-                            <Button className="col-span-2" variant="signin" type="submit">Google</Button>
+                        <div className="grid items-center justify-center gap-x-2 gap-y-4 grid-cols-4 w-full">
+                            <Link className="col-span-2" href="/api/auth/signin">
+                                <Button variant="signin" type="submit">Github</Button>
+                            </Link>
+
+                            <Link className="col-span-2" href="/api/auth/signin">
+                                <Button variant="signin" type="submit">Google</Button>
+                            </Link>
+
+
                         </div>
                     </form>
                 </Form>

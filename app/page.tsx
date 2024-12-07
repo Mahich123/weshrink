@@ -21,7 +21,7 @@ export default function Home() {
                 type='text'
                 placeholder='Enter your link here'
             />
-            <Button className='absolute text-[8px] md:text-xs rounded-lg right-[3rem] md:right-[5rem] lg:right-[6.5rem] xl:right-[10.5rem] 2xl:right-[15rem] top-[14px]' variant="primary">Trim Now</Button>
+            <Button className='absolute text-[8px] md:text-xs rounded-lg right-[3rem] md:right-[5rem] lg:right-[6.5rem] xl:right-[10.5rem] 2xl:right-[14rem] top-[14px]' variant="primary">Trim Now</Button>
         </div>
 
         <span className='text-[10px] sm:text-base text-white mt-4 font-medium flex justify-center relative font-Nunito'>
