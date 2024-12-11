@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Switch } from "@/components/ui/switch"
 import { Button } from "@/components/ui/button"
+import { cn } from "@/lib/utils"
 
 export default function CreateUrlForm() {
   const [enableExpiry, setEnableExpiry] = useState(false)
@@ -15,9 +16,9 @@ export default function CreateUrlForm() {
     // Handle form submission logic here
     console.log("Form submitted")
   }
-
+// "w-full max-w-md mx-auto bg-[#605678]/40 border-[#D9D9D9]"
   return (
-    <Card className="w-full max-w-md mx-auto bg-[#605678]/40 border-[#D9D9D9]">
+    <Card className={cn("w-full max-w-[20rem] md:max-w-md  mx-auto bg-[#605678]/40 border-[#D9D9D9]")}>
       <CardHeader>
         <CardTitle className="text-2xl font-bold"></CardTitle>
       </CardHeader>
